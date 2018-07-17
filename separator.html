@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		
+        <style>
+          .separator {
+			  width: 100%;
+			}
+
+			.separator > span {
+			  font-size: 11pt;
+			  font-weight: bold;
+			  width: 100%;
+			  display: inline-block;
+			  margin: auto;
+			  text-align: center;
+			  padding: 15px 0;
+			  position: relative;
+			}
+
+			.separator > span > strong {
+			  width: auto;
+			  background-color: #fff;
+			  position: relative;
+			  z-index: 100;
+			  padding: 0 10px;
+			}
+
+			.separator > span:before {
+			  content: '';
+			  position: absolute;
+			  top: 25px;
+			  left: 0;
+			  width: 100%;
+			  display: block;
+			  height: 1px;
+			  background-color: #e3e3e3;
+			  z-index: 50;
+			}
+            
+        </style>
+        
+    </head>
+
+    <body>
+          <div class="separator"> 
+            <span><strong>OU</strong></span>
+          </div>
+    </body>
+</html>
